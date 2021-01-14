@@ -1,0 +1,138 @@
+		/*comune a tutto il codice*/
+		body {
+			font-family: 'Arial';
+			font-size: 18px;
+		}
+
+		head{
+			height: 200px;
+ 			width: 50%;
+  			background-color: powderblue;
+		}
+
+		h2{
+			width: auto;
+			height: auto;
+		}
+
+		/*dedicati alla navbar*/
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden; /* messo per non far uscire "li" dalla tabella */
+			background-color: gainsboro;
+			width: 1430px;
+		}
+
+		li {
+			float: left;
+		}
+
+		li a {
+			display: block;
+			color: navy;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		li a:hover {
+			background-color: navy;
+			color: white;
+		}
+
+		/*dedicati ai form*/
+		fieldset {
+			border: none;
+		}
+
+		/*tasto invia*/
+		input[type="submit"] {
+			background-color: navy;
+			border: none;
+			color: white;
+			padding: 10px 40px;
+		}
+
+		input[type="submit"]:hover {
+			background-color: gainsboro;
+			color: navy;
+		}
+
+		/*credenziali nei form*/
+		label {
+            color: navy;
+		}
+		
+		input {
+			margin: 5px;
+		}
+
+        input[type="text"] {
+            padding: 5px;
+            margin: 8px 0;
+            width: 30%;
+		}
+
+		input[type=text]:focus {
+			border: 3px solid #555;
+		}
+		
+		input[type=text], select {
+			width: 30%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			display: inline-block;
+			border: 1px solid #ccc;
+			border-radius: 4px;
+			box-sizing: border-box;
+		}
+		
+        input[type="number"] {
+			padding: 5px;
+			margin: 8px 0;
+            width: 100px;
+		}
+
+		input[type="date"] {
+			padding: 5px;
+			margin: 8px 0;
+            width: 200px;
+		}
+		
+        h2 {
+            color: navy;
+		}
+		
+		button {
+			background-color: navy;
+			border: none;
+			color: white;
+			padding: 10px 40px;
+		}
+
+		button:hover {
+			background-color: gainsboro;
+			color: navy;
+		}
+
+		img {
+			max-width: 50%;
+			height: auto;
+		}
+
+		/*dedicato a tabelle*/
+		thead{
+			width: auto;
+			height: auto;
+			background-color: gainsboro;
+			
+		}
+
+		table{
+			table-layout : fixed;
+			width : 1430px;
+			caption-side : bottom;
+		}
+
